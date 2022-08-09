@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="x-icon" href="./images/Roundel_of_Bangladesh.svg.png">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form by Omar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="area">
+      <div class="column-1">
+        <img style="cursor:pointer ;" class="nav-img" src="./images/ictdd.png" alt="ict-division" />
+      </div>
+      <div class="column-2">
+        <img style="cursor:pointer ;" class="nav-img" src="./images/mujib100.png" alt="mujib100" />
+      </div>
+      <nav class="navbar">
+        <a href="">Home</a>
+        <a href="">Course Ragistration/Assesment</a>
+        <a href="">Course Module-2020</a>
+        <a href="">Class Scheduke</a>
+        <a href="">Success Story</a>
+        <a href="">Attendance</a>
+        <a href="">FAQ</a>
+        <a href="">Login</a>
+      </nav>
+      <hr />
+      <div class="title">
+        <h2>student registration form</h2>
+      </div>
+      <hr />
+      <div>
+        <h3 class="info">Please enter information</h3>
+      </div>
+      <div class="left">
+        <form class="form-1" action="">
+          <p style="font-size: 10px; margin: 0px; font-family: roboto">
+            Mandatory Field*
+          </p>
+          <label for="district" style="font-family: roboto"
+            >District(<span style="font-size: 10px"
+              >Institute District: where you want to do your course</span
+            >)*</label
+          >
+          <br />
+          <select class="selectDistrict" id="distdistrict">
+            <option value="Dhaka" disabled selected>--Select One--</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Narayangonj">Narayangonj</option>
+            <option value="Bogra">Bogra</option>
+            <option value="Jamalpur">Jamalpur</option>
+            <option value="Chandpur">Chandpur</option>
+            <option value="Tangail">Tangail</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Noakhali">Noakhali</option>
+            <option value="Pabna">Pabna</option>
+            <option value="Rangpur">Rangpur</option>
+            <option value="Dinajpur">Dinajpur</option>
+          </select>
+          <br />
+          <label for="course" style="font-family: roboto; padding-top: 10px"
+            >Course Module*</label
+          >
+          <br />
+          <select class="selectDistrict" id="course">
+            <option value="Web Design and Development" disabled selected>--Select One--</option>
+            <option value="Web Design and Development">
+              Web Design and Development - 2020 (2020, February)
+            </option>
+            <option value="Graphics Design">
+              Graphics Design - 2020 (2020, February)
+            </option>
+            <option value="Narayangonj">
+              Digital Marketing - 2020 (2020, February)
+            </option>
+          </select>
+          <br />
+          <label for="name">Student Name*</label><br />
+          <input class="selectDistrict" id="type="text" name="" id="name" placeholder="Your Name" />
+          <br />
+          <label for="fatherName">Father's Name*</label><br />
+          <input class="selectDistrict"
+            type="text"
+            name=""
+            id="fatherName"
+            placeholder="Father's Name"
+          />
+          <br />
+          <label >Mother's Name*</label><br />
+          <input
+          class="selectDistrict" for="motherName"
+            type="text"
+            name=""
+            id="motherName"
+            placeholder="Mother's Name"
+          />
+          <div class="birth">
+            <span class="Dob">Date of Birth*</span>
+            <div style="display: flex; justify-content: space-around;">
+            <p>Date</p>
+            <p>Month</p>
+            <p>year</p>
+            </div>
+            <div style="display:flex; justify-content: space-around;">
+                <select class="DOBinput" name="" id="day">
+                    <option value="" disabled selected>Select</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                    <option value="">31</option>
+                  </select>
+                  <select class="DOBinput" name="" id="month">
+                    <option value="" disabled selected>Select</option>
+                    <option value="">January</option>
+                    <option value="">February</option>
+                    <option value="">March</option>
+                    <option value="">April</option>
+                    <option value="">May</option>
+                    <option value="">June</option>
+                    <option value="">July</option>
+                    <option value="">August</option>
+                    <option value="">September</option>
+                    <option value="">October</option>
+                    <option value="">November</option>
+                    <option value="">December</option>
+                  </select>
+                  <select  class="DOBinput" name="" id="year">
+                    <option value="" disabled selected>Select</option>
+                    <option value="">2000</option>
+                    <option value="">2001</option>
+                    <option value="">2002</option>
+                    <option value="">2003</option>
+                    <option value="">2004</option>
+                    <option value="">2005</option>
+                    <option value="">2006</option>
+                    <option value="">2007</option>
+                    <option value="">2008</option>
+                    <option value="">2009</option>
+                    <option value="">2010</option>
+                    <option value="">2011</option>
+                  </select>
+            </div>
+            
+          </div>
+          <label for="gender">Gender*</label>
+          <input type="radio" name="gender" id="gender">Male</input>
+          <input type="radio" name="gender" id="gender">Female</input><br><br
+          <label for="handicapped">Physically Handicapped*</label>
+          <input type="radio" name="handicapped" id="" id="handicapped">Yes</input>
+          <input type="radio" name="handicapped" id="handicapped">No</input><br>
+          <br>
+          <label for="email">Email*</label><br>
+          <input class="selectDistrict" type="text" id="email" placeholder="Your email">
+          <p>(e.g: example@mail.com)</p><br>
+          <label for="phone">Phone* (Must be 11 digits)</label><br>
+          <input class="selectDistrict" type="text" id="phone" placeholder="Your email">
+          <p>(e.g:0155123456)</p>
+        </form>
+      </div>
+      <div class="right">
+        <form action="" class="form2">
+            <br>
+            <label for="identity">Identification Type*</label><br>
+            <select class="selectDistrict" name="" id="identity">
+                <option value="">Select</option>
+                <option value="">Birth Certificate no</option>
+                    <option value="">National ID no.</option>  
+            </select><br><br>
+            <label>Identification No. (Must be 10 digits for new NID or 17 digits for old NID. If your National ID is 13 digits, then please add your birth year with the ID as prefix. Example: 1980XXXXXXXXXXXXX)*</label><br>
+            <input type="text" class="selectDistrict"><br><br>
+            <label for="homedis">Home District*</label><br>
+            
+            <select class="selectDistrict" name="" id="homedis">
+                <option value="Dhaka" disabled selected>--Select One--</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Narayangonj">Narayangonj</option>
+            <option value="Bogra">Bogra</option>
+            <option value="Jamalpur">Jamalpur</option>
+            <option value="Chandpur">Chandpur</option>
+            <option value="Tangail">Tangail</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Noakhali">Noakhali</option>
+            <option value="Pabna">Pabna</option>
+            <option value="Rangpur">Rangpur</option>
+            <option value="Dinajpur">Dinajpur</option>
+          </select>
+          <br>
+          <br>
+          <label>Village/House No./Road No./Other Alternative*</label><br>
+          <input type="text" class="selectDistrict"><br>
+          <br>
+          
+          <label>Post Office*</label><br>
+          <input type="text" class="selectDistrict"><br><br>
+          <label>Educational Qualification*</label><br>
+          <select class="selectDistrict" name="" id="homedis">
+            <option value="Dhaka" disabled selected>--Select One--</option>
+        <option value="Dhaka">Higher Secondary/equivalent</option>
+        <option value="Narayangonj">Bachelor</option>
+        <option value="Bogra">Master</option>
+        <option value="Bogra">Phd</option>
+      </select>
+      <br><br>
+        <label for="computer">Have any computer*</label>
+          <input type="radio" name="computer" id="gender">Yes</input>
+          <input type="radio" name="computer" id="gender">Noe</input><br><br>
+          <label for="computer">Photograph*</label>
+          <input type="file"><br>
+          <p>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</p>
+          <label for="computer">Signature*</label>
+          <input style="border-radius:2px;" type="file"><br><p>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</p>          <button class="submit">Submit Data</button>
+      </div>
+    </div>
+  </body>
+</html>

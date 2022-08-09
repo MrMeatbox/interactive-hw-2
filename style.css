@@ -1,0 +1,144 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+  font-weight: bold;
+  background-image: url(./images/bg_0.png);
+}
+.area {
+  background-color: white;
+  height: 100%;
+  margin: 0px 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.column-1 {
+  display: inline;
+}
+.column-2 {
+  display: inline;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+.column-3 {
+  display: inline;
+  left: 80%;
+}
+.nav-img {
+  width: 170px;
+}
+.navbar {
+  background-color: white;
+  padding: 10px 0;
+}
+.navbar a {
+  border: none;
+  text-decoration: none;
+  font-family: roboto;
+  padding: 10px 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  color: black;
+  text-transform: capitalize;
+  transition: 0.4s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.navbar a:hover {
+  background-color: royalblue;
+  color: white;
+}
+.title {
+  color: green;
+  text-transform: capitalize;
+  font-family: roboto;
+  padding: 0px 20px;
+  margin: 0;
+}
+.info {
+  color: black;
+  font-family: Myriad, Tahoma;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+hr {
+  border-color: green;
+}
+.left {
+  background-color: white;
+  height: 100vh;
+  width: 50%;
+  float: left;
+  display: inline;
+  margin: 0;
+}
+.selectDistrict {
+  background-color: white;
+  width: 55%;
+  border-radius: 5px;
+  height: 30px;
+  border: none;
+  margin-left: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.right {
+  background-color: white;
+  height: 100vh;
+  width: 50%;
+  float: right;
+  display: inline;
+  margin: 0;
+}
+.birth {
+  margin: 20px 3px;
+  background-color: white;
+  font-size: 15px;
+  height: 85px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+}
+.Dob {
+  position: relative;
+  top: -15px;
+  left: 10px;
+  background-color: white;
+}
+.month {
+  width: 33.33%;
+  float: left;
+  margin-top: 17px;
+}
+.day {
+  width: 33.33%;
+  float: left;
+  margin-top: 17px;
+}
+.year {
+  width: 33.33%;
+  float: right;
+  margin-top: 0px;
+}
+.DOBinput {
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 180px;
+}
+
+.submit {
+  font-size: 15px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: navy;
+  color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.submit:hover {
+  background-color: red;
+  color: white;
+}
